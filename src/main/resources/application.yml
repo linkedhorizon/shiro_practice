@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  #jsp 支持
+#spring.mvc.view.suffix=.jsp
+#spring.mvc.view.prefix=/WEB-INF/jsp/
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+
